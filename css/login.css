@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* login.css */
+
+main {
+  background-color: #fff;
+  padding: 0 1%;
+}
+
+main > ul {
+  display: flex;
+  border-bottom: 1px solid #aaa;
+  justify-content: space-between;
+}
+main > ul > li {
+  text-align: center;
+  width: 50%;
+  line-height: 45px;
+}
+main > ul > li > a {
+  font-weight: bold;
+  display: block;
+}
+
+.active {
+  border-bottom: 3px solid #040461;
+}
+
+/* 아이디 */
+.id_cont legend {
+  display: none;
+}
+.id_cont {
+  padding: 20px 10px;
+}
+#id, #pw {
+  border: none;
+  border-bottom: 1px solid #333;
+  width: 100%;
+  padding: 15px 3px;
+}
+.idpw {
+  line-height: 30px;
+  color: #595858;
+  margin: 50px 0;
+}
+.idpw > span {
+  color: #ff0;
+}
+
+.lg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+}
+.sign > a {
+  color: #1c1cb4;
+}
+
+#lg_btn {
+  width: 100%;
+  padding: 17px;
+  border: none;
+  border-radius: 10px;
+  background-color: #040461;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+.find, .sso, .lg_dif  {
+  text-align: center;
+  padding: 25px 0;
+}
+.find > a, .lg_dif > a {
+  text-decoration: underline;
+}
+
+.find > a {
+  text-decoration: underline;
+  border-right: 1px solid #ccc;
+  padding: 0 15px;
+}
+.find > a:last-child {
+  border-right: none;
+}
+
+.sso > p {
+  color: #565656;
+}
+.sns_wrap {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 35px 0;
+}
+.sns {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+.naver {
+  background-image: url(../images/naver_btnG_circle.png);
+}
+.kakao {
+  background-image: url(../images/kakao_login_large_narrow.png);
+  background-position-x: 0px;
+}
+.google {
+  background-image: url(../images/google_web_light_rd_na_4x.png);
+}
+.facebook {
+  background-image: url(../images/Facebook_Logo_Primary.png);
+}
+.apple {
+  background-image: url(../images/appleid_button_4x.png);
+  background-position-x: -49.5px;
+}
+
+/* 스카이패스 번호 */
