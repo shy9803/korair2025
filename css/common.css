@@ -126,7 +126,7 @@ h1 img {
 }
 /* 서브메뉴 활성화시 회전 */
 .fa-angle-down.rotate {
-  transform: rotate(180deg) translate(0, -10px);
+  transform: rotate(180deg) translateX(-12px);
 }
 
 /* 푸터 */
